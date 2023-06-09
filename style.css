@@ -1,0 +1,199 @@
+/* CSS styles for the admin dashboard */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Modal styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
+  /* Edit button */
+  .edit-button {
+    background-color: #2196F3; /* Blue background */
+  }
+  
+  .edit-button:hover {
+    background-color: #1E88E5; /* Darker blue background on hover */
+  }
+  
+  /* Delete button */
+  .delete-button {
+    background-color: #F44336; /* Red background */
+  }
+  
+  .delete-button:hover {
+    background-color: #E53935; /* Darker red background on hover */
+  }
+  
+  /* Logout button */
+  .logout-button {
+    background-color: #FF5722; /* Orange background */
+  }
+  
+  .logout-button:hover {
+    background-color: #F4511E; /* Darker orange background on hover */
+  }
+  
+  /* Modal buttons */
+  .modal-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  .modal-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
+  /* Form styles */
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #2196F3;
+  }
+  
+  .form-submit-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-submit-button:hover {
+    background-color: #1E88E5;
+  }
+  
+  /* Label styles */
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #2196F3;
+  }
+  
+  /* ... */
+  
